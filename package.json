@@ -1,5 +1,5 @@
 {
-  "name": "@techteamer/passport-saml",
+  "name": "@node-saml/passport-saml",
   "version": "4.0.2",
   "description": "SAML 2.0 authentication strategy for Passport",
   "keywords": [
@@ -51,7 +51,7 @@
     "watch": "concurrently --kill-others \"npm:*-watch\""
   },
   "dependencies": {
-    "@techteamer/node-saml2": "https://github.com/TechTeamer/node-saml2.git#feature/FKITDEV-29",
+    "@techteamer/node-saml2": "TechTeamer/node-saml2#feature/FKITDEV-29",
     "@types/express": "^4.17.14",
     "@types/passport": "^1.0.11",
     "@types/passport-strategy": "^0.2.35",
