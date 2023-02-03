@@ -8,7 +8,7 @@ import type {
   MultiStrategyConfig,
 } from "./types";
 
-export * from "@techteamer/node-saml2";
+export * from "@node-saml/node-saml";
 
 export {
   AbstractStrategy,
