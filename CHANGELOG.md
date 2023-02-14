@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.1.0 (2023-02-14)
+
+-- change node-saml lib to TechTeamer fork (with ecdsa-384 support)
+
 ## v4.0.2 (2022-12-13)
 
 #### 🔗 Dependencies:

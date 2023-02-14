@@ -1,7 +1,7 @@
 import { AbstractStrategy } from "./strategy";
 import type { Request } from "express";
 import { AuthenticateOptions, MultiStrategyConfig, RequestWithUser, VerifyWithoutRequest, VerifyWithRequest } from "./types";
-import { SamlConfig } from "@node-saml/node-saml";
+import { SamlConfig } from "@techteamer/node-saml2";
 export declare class MultiSamlStrategy extends AbstractStrategy {
     static readonly newSamlProviderOnConstruct = false;
     _options: SamlConfig & MultiStrategyConfig;
